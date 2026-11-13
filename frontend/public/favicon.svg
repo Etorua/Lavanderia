@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#701246" />
+      <stop offset="50%" stop-color="#580f36" />
+      <stop offset="100%" stop-color="#2d051b" />
+    </linearGradient>
+    <linearGradient id="bubbleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#fbcfe8" stop-opacity="0.4" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="116" height="116" rx="28" fill="url(#bgGrad)" stroke="#f472b6" stroke-width="3" stroke-opacity="0.5" />
+  <circle cx="64" cy="64" r="38" fill="none" stroke="url(#bubbleGrad)" stroke-width="5" stroke-dasharray="14 8" stroke-linecap="round" opacity="0.85" />
+  <circle cx="64" cy="64" r="28" fill="#430a28" stroke="#fbcfe8" stroke-width="2" opacity="0.6" />
+
+  <g fill="#ffffff" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" letter-spacing="-1">
+    <text x="44" y="76" text-anchor="middle">L</text>
+    <text x="76" y="76" text-anchor="middle" fill="#f472b6">P</text>
+  </g>
+
+  <circle cx="88" cy="40" r="7" fill="url(#accentGrad)" />
+  <circle cx="90" cy="38" r="2.5" fill="#ffffff" opacity="0.8" />
+  <path d="M 38 32 Q 38 42 48 42 Q 38 42 38 52 Q 38 42 28 42 Q 38 42 38 32 Z" fill="#fbcfe8" />
+  <circle cx="38" cy="42" r="2" fill="#ffffff" />
+  <path d="M 94 88 Q 94 93 99 93 Q 94 93 94 98 Q 94 93 89 93 Q 94 93 94 88 Z" fill="#38bdf8" opacity="0.9" />
+</svg>
